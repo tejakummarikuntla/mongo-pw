@@ -1,0 +1,10 @@
+db.reservations.find().forEach(function(document) {
+    var one_day=1000*60*60*24;
+    var date1_ms = new Date(document.starts_at);
+    var date2_ms = new Date(document.ends_at);
+    var difference_ms = Math.round((date2_ms - date1_ms)/one_day);
+    if(difference_ms >= 7){
+        var d = new Date(new ISODate(document.ends_at).getTime() + one_day);
+        d = d.toISOString().substring(0,d.toISOString().length - 5);
+document.ends_at = d;
+db.reservations.save(document);}})

@@ -1,0 +1,8 @@
+
+db.reservations.find( {}, { _id: 0 } ).forEach(function(document) {
+   var date1_ms = document.ends_at;
+   var date2_ms = document.starts_at;
+   if(date1_ms == date2_ms){
+     printjson(document);
+   } }
+)

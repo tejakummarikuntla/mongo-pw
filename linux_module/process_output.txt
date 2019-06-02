@@ -1,0 +1,28 @@
+top - 22:48:15 up  8:21,  0 users,  load average: 0.18, 0.07, 0.09
+Tasks: 166 total,   1 running, 127 sleeping,   0 stopped,   0 zombie
+%Cpu(s): 11.6 us,  2.7 sy,  0.2 ni, 85.1 id,  0.2 wa,  0.0 hi,  0.3 si,  0.0 st
+KiB Mem :  7652348 total,  3993284 free,  1857748 used,  1801316 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.  5510896 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND                                                                                       
+17370 crio-us+  20   0 3398812 215536  92332 S  17.9  2.8  12:00.97 gnome-shell                                                                                   
+17301 crio-us+  20   0  507812  78804  40444 S   4.3  1.0   2:19.54 Xorg                                                                                          
+20602 root      20   0  625616  31200   9048 S   2.3  0.4   0:59.18 guacd                                                                                         
+ 1461 tomcat8   20   0 4435920 238244  20940 S   1.7  3.1   2:16.60 java                                                                                          
+20612 xrdp      20   0   42108  18396   5256 S   1.7  0.2   0:35.89 xrdp                                                                                          
+20508 crio-us+  20   0  800996  46888  30248 S   1.0  0.6   0:16.44 gnome-terminal-                                                                               
+ 1046 logstash  39  19 3604336 613996  22536 S   0.7  8.0   5:05.88 java                                                                                          
+ 1305 redis     20   0   51664   3672   2600 S   0.7  0.0   0:31.73 redis-server                                                                                  
+21770 crio-us+  20   0   42240   3688   3096 R   0.7  0.0   0:00.20 top                                                                                           
+ 1414 root      20   0  299004  10184    184 S   0.3  0.1   0:14.82 guacd                                                                                         
+ 3856 root      20   0  154608  25444   8760 S   0.3  0.3   0:03.96 python3.6                                                                                     
+    1 root      20   0  160136   9516   6788 S   0.0  0.1   0:30.33 systemd                                                                                       
+    2 root      20   0       0      0      0 S   0.0  0.0   0:00.00 kthreadd                                                                                      
+    4 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 kworker/0:0H                                                                                  
+    6 root       0 -20       0      0      0 I   0.0  0.0   0:00.00 mm_percpu_wq                                                                                  
+    7 root      20   0       0      0      0 S   0.0  0.0   0:02.44 ksoftirqd/0                                                                                   
+    8 root      20   0       0      0      0 I   0.0  0.0   0:12.89 rcu_sched                                                                                     
+   10 root      rt   0       0      0      0 S   0.0  0.0   0:00.07 migration/0                                                                                   
+   11 root      rt   0       0      0      0 S   0.0  0.0   0:00.05 watchdog/0                                                                                    
+   12 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/0                                                                                       
+   13 root      20   0       0      0      0 S   0.0  0.0   0:00.00 cpuhp/1  

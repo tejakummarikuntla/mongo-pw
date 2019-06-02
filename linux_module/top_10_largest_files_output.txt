@@ -1,0 +1,11 @@
+1020K	./sql_test/.gradle/5.0
+1020K	./.local/share/code-server/extensions/java/server/config_linux/org.eclipse.osgi/43
+1016K	./.local/share/code-server/extensions/java/server/config_linux/org.eclipse.osgi/43/0
+1012K	./.local/share/code-server/extensions/java/server/config_linux/org.eclipse.osgi/43/0/.cp
+1008K	./sql_test/dataaccess
+1004K	./.IdeaIC2019.1/system/external_build_system/pratikupacharya-me_qride.de1ff6f
+980K	./.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.6.0
+964K	./.gradle/caches/modules-2/files-2.1/org.assertj/assertj-core/2.6.0/b532c3fc4f66bcfee4989a3514f1cd56203a33ad
+964K	./.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core
+956K	./.local/share/code-server/extensions/vscodevim.vim-1.4.0/node_modules/neovim
+

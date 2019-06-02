@@ -1,0 +1,1 @@
+db.reservations.deleteOne({"reservation_id" : "E69D82DA2"})

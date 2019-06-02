@@ -1,0 +1,2 @@
+db.reservations.find({"city":"South Leahstad"}, {"_id":0}).pretty()
+

@@ -1,0 +1,10 @@
+
+db.reservations.find( {}, { _id: 0 } ).forEach(function(document) {
+   var ten_days=1000*60*60*24*10;
+   var date1_ms = document.ends_at;
+   var d = new Date(new ISODate().getTime() + ten_days);
+   d = d.toISOString().substring(0,d.toISOString().length - 5);
+   if(date1_ms < d){
+     printjson(document);
+   } }
+)

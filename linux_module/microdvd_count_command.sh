@@ -1,0 +1,1 @@
+wc sample.txt
